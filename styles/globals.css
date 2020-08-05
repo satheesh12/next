@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+html, body, body > div {
+  height: 100%
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
